@@ -1,0 +1,3 @@
+# Store every file byte for byte (no line-ending conversion), so that the
+# archived results and the Windows batch files stay exactly as produced.
+* -text

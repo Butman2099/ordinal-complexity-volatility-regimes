@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Run logs
+*.log
+
+# Feature tables written by features_gen.ipynb (rebuilt from data/)
+Datasets/**/*.csv
+
+# Written by the scripts; not part of the archived results
+Results_EAAI/_mi_cache/
+Results_EAAI_smoke/
+figures/
+selected_features.csv
+mi_null*
+*_error.txt
+
+# OS and editors
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/

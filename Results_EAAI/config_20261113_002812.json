@@ -1,0 +1,70 @@
+{
+  "data_dir": "Datasets",
+  "out": "Results_EAAI",
+  "markets": [
+    "WTI",
+    "Brent",
+    "Gasoline",
+    "HenryHub"
+  ],
+  "horizons": [
+    5,
+    10,
+    20
+  ],
+  "targets": [
+    "vol"
+  ],
+  "featuresets": [
+    "HAR",
+    "HAR+HCF",
+    "HAR+BASE+HCF",
+    "HCF"
+  ],
+  "models": [
+    "GRU"
+  ],
+  "gru_hidden": [
+    16,
+    32,
+    64
+  ],
+  "gru_epochs": [
+    5,
+    10,
+    15,
+    20,
+    30,
+    40,
+    50,
+    60
+  ],
+  "gru_seeds": 3,
+  "representation": "levels",
+  "lags": 20,
+  "test_size": 0.2,
+  "gap": 250,
+  "cv_splits": 5,
+  "n_iter": 30,
+  "n_jobs": -1,
+  "seed": 0,
+  "importance_repeats": 5,
+  "mi_null": 0,
+  "overwrite": false,
+  "prepare_only": false,
+  "smoke": false,
+  "python": "3.14.6",
+  "platform": "Windows-10-10.0.19045-SP0",
+  "numpy": "2.4.6",
+  "pandas": "3.0.3",
+  "scikit-learn": "1.9.0",
+  "percentile_grid": [
+    5,
+    10,
+    20,
+    30,
+    50,
+    75,
+    100
+  ]
+}

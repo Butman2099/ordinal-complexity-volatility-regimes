@@ -1,0 +1,29 @@
+{
+  "target": "vol",
+  "class_names": {
+    "-1": "Contraction",
+    "+1": "Expansion"
+  },
+  "horizon": 10,
+  "n_aligned": 9946,
+  "n_train": 7956,
+  "n_test": 1740,
+  "embargo": 250,
+  "test_size_nominal": 0.2,
+  "train_start": "1987-01-29",
+  "train_end": "2018-08-14",
+  "test_start": "2019-08-19",
+  "test_end": "2026-08-04",
+  "prevalence_train": 0.5016339869281046,
+  "prevalence_test": 0.4810344827586207,
+  "har_variables": [
+    "log_rv_1",
+    "log_rv_5",
+    "log_rv_10",
+    "log_rv_22"
+  ],
+  "market": "WTI",
+  "series_id": "DCOILWTICO",
+  "representation": "levels",
+  "lags": 20
+}

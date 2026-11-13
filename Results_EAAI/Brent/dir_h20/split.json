@@ -1,0 +1,24 @@
+{
+  "target": "dir",
+  "class_names": {
+    "-1": "Down",
+    "+1": "Up"
+  },
+  "horizon": 20,
+  "n_aligned": 9652,
+  "n_train": 7721,
+  "n_test": 1681,
+  "embargo": 250,
+  "test_size_nominal": 0.2,
+  "train_start": "1988-06-10",
+  "train_end": "2018-11-30",
+  "test_start": "2019-11-27",
+  "test_end": "2026-07-21",
+  "prevalence_train": 0.5415101670768036,
+  "prevalence_test": 0.528256989886972,
+  "har_variables": [],
+  "market": "Brent",
+  "series_id": "DCOILBRENTEU",
+  "representation": "levels",
+  "lags": 20
+}

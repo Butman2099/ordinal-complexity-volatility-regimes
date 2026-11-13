@@ -1,0 +1,24 @@
+{
+  "target": "dir",
+  "class_names": {
+    "-1": "Down",
+    "+1": "Up"
+  },
+  "horizon": 10,
+  "n_aligned": 9921,
+  "n_train": 7936,
+  "n_test": 1735,
+  "embargo": 250,
+  "test_size_nominal": 0.2,
+  "train_start": "1987-01-29",
+  "train_end": "2018-08-17",
+  "test_start": "2019-08-22",
+  "test_end": "2026-08-04",
+  "prevalence_train": 0.5316280241935484,
+  "prevalence_test": 0.5538904899135446,
+  "har_variables": [],
+  "market": "WTI",
+  "series_id": "DCOILWTICO",
+  "representation": "levels",
+  "lags": 20
+}

@@ -1,0 +1,22 @@
+{
+    "series_id": "DCOILBRENTEU",
+    "start": "1987-05-20",
+    "end": "2026-08-18",
+    "return_method": "simple",
+    "complexity_windows": [
+        50,
+        75,
+        100,
+        250
+    ],
+    "embedding_dim": 3,
+    "embedding_delay": 1,
+    "tie_precision": null,
+    "base_rolling_windows": [
+        50,
+        75,
+        100,
+        250
+    ],
+    "align_feature_sets": true
+}

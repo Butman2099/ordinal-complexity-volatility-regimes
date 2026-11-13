@@ -1,0 +1,16 @@
+{
+  "model": "LR",
+  "best_params": {
+    "clf__C": 0.08559431203360215,
+    "clf__class_weight": null,
+    "clf__l1_ratio": 0.6818202991034834
+  },
+  "cv_best_auc": 0.7095441760894623,
+  "test_auc": 0.7608836739147915,
+  "n_candidates": 4,
+  "n_selected": 4,
+  "n_always_kept": 4,
+  "fit_seconds": 0.3,
+  "n_iter": 30,
+  "finished": "2026-11-11T11:06:51"
+}

@@ -1,0 +1,29 @@
+{
+  "target": "vol",
+  "class_names": {
+    "-1": "Contraction",
+    "+1": "Expansion"
+  },
+  "horizon": 10,
+  "n_aligned": 9678,
+  "n_train": 7742,
+  "n_test": 1686,
+  "embargo": 250,
+  "test_size_nominal": 0.2,
+  "train_start": "1988-06-10",
+  "train_end": "2018-12-07",
+  "test_start": "2019-12-04",
+  "test_end": "2026-08-04",
+  "prevalence_train": 0.4972875226039783,
+  "prevalence_test": 0.5023724792408066,
+  "har_variables": [
+    "log_rv_1",
+    "log_rv_5",
+    "log_rv_10",
+    "log_rv_22"
+  ],
+  "market": "Brent",
+  "series_id": "DCOILBRENTEU",
+  "representation": "levels",
+  "lags": 20
+}

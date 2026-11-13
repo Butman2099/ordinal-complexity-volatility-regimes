@@ -1,0 +1,24 @@
+{
+  "target": "dir",
+  "class_names": {
+    "-1": "Down",
+    "+1": "Up"
+  },
+  "horizon": 10,
+  "n_aligned": 7055,
+  "n_train": 5644,
+  "n_test": 1161,
+  "embargo": 250,
+  "test_size_nominal": 0.2,
+  "train_start": "1998-02-03",
+  "train_end": "2020-11-11",
+  "test_start": "2021-11-16",
+  "test_end": "2026-08-04",
+  "prevalence_train": 0.49238128986534374,
+  "prevalence_test": 0.4892334194659776,
+  "har_variables": [],
+  "market": "HenryHub",
+  "series_id": "DHHNGSP",
+  "representation": "levels",
+  "lags": 20
+}

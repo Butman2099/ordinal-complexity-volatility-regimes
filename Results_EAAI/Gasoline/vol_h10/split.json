@@ -1,0 +1,29 @@
+{
+  "target": "vol",
+  "class_names": {
+    "-1": "Contraction",
+    "+1": "Expansion"
+  },
+  "horizon": 10,
+  "n_aligned": 9819,
+  "n_train": 7855,
+  "n_test": 1714,
+  "embargo": 250,
+  "test_size_nominal": 0.2,
+  "train_start": "1987-06-29",
+  "train_end": "2018-09-18",
+  "test_start": "2019-09-23",
+  "test_end": "2026-08-04",
+  "prevalence_train": 0.501209420751114,
+  "prevalence_test": 0.5093348891481914,
+  "har_variables": [
+    "log_rv_1",
+    "log_rv_5",
+    "log_rv_10",
+    "log_rv_22"
+  ],
+  "market": "Gasoline",
+  "series_id": "DGASUSGULF",
+  "representation": "levels",
+  "lags": 20
+}

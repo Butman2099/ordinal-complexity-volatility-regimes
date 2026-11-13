@@ -1,0 +1,20 @@
+{
+  "model": "RF",
+  "best_params": {
+    "clf__class_weight": null,
+    "clf__max_depth": null,
+    "clf__max_features": "sqrt",
+    "clf__max_samples": null,
+    "clf__min_samples_leaf": 20,
+    "clf__n_estimators": 686,
+    "sel__percentile": 100
+  },
+  "cv_best_auc": 0.5251610196228083,
+  "test_auc": 0.4762932570125644,
+  "n_candidates": 756,
+  "n_selected": 756,
+  "n_always_kept": 0,
+  "fit_seconds": 234.7,
+  "n_iter": 30,
+  "finished": "2026-11-12T17:08:58"
+}

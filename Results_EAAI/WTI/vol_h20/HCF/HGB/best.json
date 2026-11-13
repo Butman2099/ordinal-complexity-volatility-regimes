@@ -1,0 +1,21 @@
+{
+  "model": "HGB",
+  "best_params": {
+    "clf__class_weight": null,
+    "clf__l2_regularization": 6.995339977530088,
+    "clf__learning_rate": 0.02615935548072265,
+    "clf__max_features": 0.37701014814702627,
+    "clf__max_iter": 359,
+    "clf__max_leaf_nodes": 49,
+    "clf__min_samples_leaf": 224,
+    "sel__percentile": 100
+  },
+  "cv_best_auc": 0.5255052552518545,
+  "test_auc": 0.5772709131545338,
+  "n_candidates": 756,
+  "n_selected": 756,
+  "n_always_kept": 0,
+  "fit_seconds": 535.1,
+  "n_iter": 30,
+  "finished": "2026-11-10T15:54:14"
+}

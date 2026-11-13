@@ -1,0 +1,43 @@
+{
+  "best_params": {
+    "hidden": 32,
+    "epochs": 5
+  },
+  "cv_best_auc": 0.6241185616197997,
+  "cv_folds": 5,
+  "n_cv_candidates": 24,
+  "hidden_grid": [
+    16,
+    32,
+    64
+  ],
+  "epoch_grid": [
+    5,
+    10,
+    15,
+    20,
+    30,
+    40,
+    50,
+    60
+  ],
+  "n_seeds": 3,
+  "n_variables": 40,
+  "sequence_length": 21,
+  "n_candidates": 840,
+  "n_selected": 840,
+  "fixed": {
+    "layers": 1,
+    "dropout": 0.2,
+    "optimizer": "Adam",
+    "lr": 0.001,
+    "weight_decay": 0.0001,
+    "batch_size": 256
+  },
+  "model": "GRU",
+  "test_auc": 0.6635895308232204,
+  "torch": "2.15.0+cpu",
+  "fit_seconds": 149.2,
+  "n_iter": 24,
+  "finished": "2026-11-13T03:55:47"
+}
