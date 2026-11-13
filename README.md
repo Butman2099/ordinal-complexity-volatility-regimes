@@ -55,7 +55,8 @@ python EAAI_experiments/eaai_figures.py --only forest_vol forest_dir delta impor
 ```
 
 `eaai_analysis.py` rewrites `Results_EAAI/_analysis/` from the dated
-predictions in `Results_EAAI/`; `eaai_figures.py` writes the figures to
+predictions in `Results_EAAI/` and reproduces the archived tables exactly
+(about 3 min on two CPU cores); `eaai_figures.py` writes the figures to
 `figures/`. No model is refitted. The split figure (`eaai_figures.py` without
 `--only`) and the figures of `eaai_figures_static.py` also need the feature
 tables from step 2.
@@ -66,8 +67,9 @@ Run `features_gen.ipynb` (Jupyter, working directory = repository root). With
 `USE_LOCAL_DATA = True` (default) it reads the frozen prices in `data/`;
 `USE_LOCAL_DATA = False` downloads the current FRED vintage instead (needs
 `pandas-datareader`), which in general differs from the data of the study.
-The feature tables are written to `Datasets/` and are also needed by
-`eaai_figures_static.py`.
+From `data/`, the notebook reproduces the feature tables of the study up to
+floating-point rounding. The feature tables are written to `Datasets/` and are
+also needed by `eaai_figures_static.py`.
 
 ### 3. Experiments
 

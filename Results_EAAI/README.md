@@ -14,7 +14,7 @@ Commons Attribution 4.0 International (CC BY 4.0),
     predictions.csv                               date, y, score (predicted probability of class +1), pred
     best.json                                     selected hyperparameters, CV AUC, test AUC, fitting time
     cv_results.csv                                randomized-search table (all candidates, all folds)
-    group_importance.csv                          group permutation importance on the test period (tabular learners)
+    group_importance.csv                          group permutation importance on the test period (tabular learners, all sets except HAR)
 _analysis/                                        aggregated tables (below)
 config_<timestamp>.json                           settings and package versions of each invocation of eaai_experiments.py
 ```
