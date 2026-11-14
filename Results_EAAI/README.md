@@ -15,6 +15,7 @@ Commons Attribution 4.0 International (CC BY 4.0),
     best.json                                     selected hyperparameters, CV AUC, test AUC, fitting time
     cv_results.csv                                randomized-search table (all candidates, all folds)
     group_importance.csv                          group permutation importance on the test period (tabular learners, all sets except HAR)
+    selected_features.csv                         mutual information (nats) of every candidate column on the final training period and whether the selector retained it (tabular learners)
 _analysis/                                        aggregated tables (below)
 config_<timestamp>.json                           settings and package versions of each invocation of eaai_experiments.py
 ```
